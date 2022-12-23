@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "BNazanin";
+    src: local("GoldmanBold"),
+     url('./fonts/b-nazanin/BNaznnBd.ttf') format("truetype");
+}
+@font-face {
+    font-family: "BNazaninLight";
+    src: local("GoldmanBold"),
+     url('./fonts/b-nazanin/bnazaninlight.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Vazir-Regular";
+    src: local("GoldmanBold"), 
+    url('./fonts/vazir/vazirRegular.ttf') format("truetype");
+}
+@font-face {
+    font-family: "Iran-Yekan";
+    src: url('./fonts/yekan/yekan.ttf') format("truetype");
+}
+.b-nazanin-bold{
+    font-family: "BNazanin";
+}
+.b-nazanin{
+    font-family: "BNazaninLight";
+}
+.vazir{
+    font-family: "Vazir-Regular";
+}
+.yekan{
+    font-family: "Iran-Yekan";
+}
+.rtl{
+    direction: rtl
+}
